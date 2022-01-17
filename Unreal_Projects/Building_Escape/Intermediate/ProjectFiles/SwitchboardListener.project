@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="SwitchboardListener">
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Target.cs" />
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerApp.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerMain.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardMessageFuture.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardPacket.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardTasks.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SyncStatus.h" />
+    <VirtualDirectory Name="Windows">
+      <VirtualDirectory Name="Resources">
+        <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.h" />
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Debug" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-DebugGame" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Shipping" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Test" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./SwitchboardListener-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh SwitchboardListener Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

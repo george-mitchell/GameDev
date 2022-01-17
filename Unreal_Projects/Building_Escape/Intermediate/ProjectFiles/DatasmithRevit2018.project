@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="DatasmithRevit2018">
+  <VirtualDirectory Name="_Development">
+    <VirtualDirectory Name="Engines">
+      <VirtualDirectory Name="UnrealEngine">
+        <VirtualDirectory Name="Engine">
+          <VirtualDirectory Name="Source">
+            <VirtualDirectory Name="Programs">
+              <VirtualDirectory Name="Enterprise">
+                <VirtualDirectory Name="Datasmith">
+                  <VirtualDirectory Name="DatasmithRevitExporter">
+                    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2018.Target.cs" />
+                    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2018.Build.cs" />
+                    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2019.Build.cs" />
+                    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2020.Build.cs" />
+                    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2021.Build.cs" />
+                    <VirtualDirectory Name="DatasmithRevit2019">
+                      <VirtualDirectory Name="Properties">
+                        <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2019/Properties/AssemblyInfo.cs" />
+                      </VirtualDirectory>
+                    </VirtualDirectory>
+                    <VirtualDirectory Name="DatasmithRevit2020">
+                      <VirtualDirectory Name="Properties">
+                        <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2020/Properties/AssemblyInfo.cs" />
+                      </VirtualDirectory>
+                    </VirtualDirectory>
+                    <VirtualDirectory Name="DatasmithRevit2021">
+                      <VirtualDirectory Name="Properties">
+                        <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2021/Properties/AssemblyInfo.cs" />
+                      </VirtualDirectory>
+                    </VirtualDirectory>
+                    <VirtualDirectory Name="Private">
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithDynamoNode.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitApplication.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitCommand.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitDirectLink.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitDocumentData.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitExportContext.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitExportMessages.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitExportOptions.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitLight.cs" />
+                      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/Private/DatasmithRevitMaterial.cs" />
+                    </VirtualDirectory>
+                  </VirtualDirectory>
+                </VirtualDirectory>
+              </VirtualDirectory>
+            </VirtualDirectory>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Properties">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRevitExporter/DatasmithRevit2018/Properties/AssemblyInfo.cs" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-Debug" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-DebugGame" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-Shipping" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-Test" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithRevit2018-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithRevit2018 Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

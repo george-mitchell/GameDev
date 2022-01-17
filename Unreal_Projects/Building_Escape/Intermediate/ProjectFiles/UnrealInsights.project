@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealInsights">
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/UnrealInsights.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Programs/UnrealInsights/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/UnrealInsights.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.h" />
+    <VirtualDirectory Name="IOS">
+      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/IOS/IOSUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Linux">
+      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Linux/LinuxUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Mac">
+      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Mac/MacUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Windows/WindowsUnrealInsightsMain.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Debug" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-DebugGame" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Shipping" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Test" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealInsights-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh UnrealInsights Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

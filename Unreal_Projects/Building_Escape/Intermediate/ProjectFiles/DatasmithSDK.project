@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="DatasmithSDK">
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/DatasmithSDK.Target.cs" />
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/DatasmithSDK.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Debug" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-DebugGame" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Shipping" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Test" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./DatasmithSDK-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh DatasmithSDK Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

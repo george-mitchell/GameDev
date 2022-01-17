@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="TestPAL">
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/TestPAL.Target.cs" />
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/TestPAL.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/Private/Main.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/Private/Parent.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/Private/Parent.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/Private/TestDirectoryWatcher.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/TestPAL/Private/TestPALLog.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-Debug" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-DebugGame" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-Shipping" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-Test" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./TestPAL-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh TestPAL Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

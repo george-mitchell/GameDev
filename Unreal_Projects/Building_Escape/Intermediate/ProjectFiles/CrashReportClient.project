@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="CrashReportClient">
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClient.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Programs/CrashReportClient/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClient.Build.cs" />
+  <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClientEditor.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClient.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientApp.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientDefines.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/CrashReportClientStyle.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/DiagnosticLogger.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/DiagnosticLogger.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/MainLoopTiming.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/RecoveryService.h" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.cpp" />
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/SCrashReportClient.h" />
+    <VirtualDirectory Name="Linux">
+      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Linux/CrashReportClientMainLinux.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Mac">
+      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Mac/CrashReportClientMainMac.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Private/Windows/CrashReportClientMainWindows.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/home/george/Game_Development/Engines/UnrealEngine/Engine/Source/Programs/CrashReportClient/Public/CrashReportClientApp.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-Debug" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-DebugGame" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-Shipping" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-Test" />
+      <General WorkingDirectory="/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux" Command="./CrashReportClient-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh CrashReportClient Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

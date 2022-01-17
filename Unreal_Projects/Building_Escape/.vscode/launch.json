@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Building_Escape (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Building_Escape Linux Debug Build",
+			"program": "/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux/Building_Escape-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Building_Escape (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Building_Escape Linux DebugGame Build",
+			"program": "/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux/Building_Escape-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Building_Escape (Development)",
+			"request": "launch",
+			"preLaunchTask": "Building_Escape Linux Development Build",
+			"program": "/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux/Building_Escape",
+			"args": [
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Building_Escape (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Building_Escape Linux Shipping Build",
+			"program": "/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux/Building_Escape-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Building_Escape (Test)",
+			"request": "launch",
+			"preLaunchTask": "Building_Escape Linux Test Build",
+			"program": "/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux/Building_Escape-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Building_EscapeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Building_EscapeEditor Linux Debug Build",
+			"program": "/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Building_EscapeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Building_EscapeEditor Linux DebugGame Build",
+			"program": "/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-DebugGame",
+			"args": [
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Building_EscapeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "Building_EscapeEditor Linux Development Build",
+			"program": "/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"
+			],
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+		}
+	]
+}

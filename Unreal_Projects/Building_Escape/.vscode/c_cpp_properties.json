@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Building_EscapeEditor Editor Linux Development (Building_Escape)",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "/home/george/Game_Development/Unreal_Projects/Building_Escape/.vscode/compileCommands_Building_Escape.json",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

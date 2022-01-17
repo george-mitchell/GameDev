@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Building_Escape Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Mac",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"IOS",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"Linux",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape LinuxAArch64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape LinuxAArch64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape LinuxAArch64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape LinuxAArch64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape LinuxAArch64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape LinuxAArch64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"LinuxAArch64",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Shipping",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_Escape TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_Escape TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_Escape",
+				"TVOS",
+				"Test",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Linux",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Building_EscapeEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		},
+		{
+			"label": "Building_EscapeEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Building_EscapeEditor",
+				"Mac",
+				"Development",
+				"/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/george/Game_Development/Engines/UnrealEngine"
+			}
+		}
+	]
+}

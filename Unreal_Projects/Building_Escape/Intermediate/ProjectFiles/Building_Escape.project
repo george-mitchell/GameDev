@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="Building_Escape">
+  <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape.Target.cs" />
+    <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_EscapeEditor.Target.cs" />
+    <VirtualDirectory Name="Building_Escape">
+      <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape/Building_Escape.Build.cs" />
+      <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape/Building_Escape.cpp" />
+      <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape/Building_Escape.h" />
+      <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape/Building_EscapeGameModeBase.cpp" />
+      <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape/Building_EscapeGameModeBase.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Config/DefaultEditor.ini" />
+    <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Config/DefaultEngine.ini" />
+    <File Name="/home/george/Game_Development/Unreal_Projects/Building_Escape/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments=" -debug" WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-Debug" />
+      <General CommandArguments=" -debug" WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Debug -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Debug -serverconfig=Debug -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments=" -debug" WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-DebugGame" />
+      <General CommandArguments=" -debug" WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux DebugGame -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=DebugGame -serverconfig=DebugGame -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape" />
+      <General WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Development -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Development -serverconfig=Development -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-Shipping" />
+      <General WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Shipping -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Shipping -serverconfig=Shipping -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-Test" />
+      <General WorkingDirectory="/home/george/Game_Development/Unreal_Projects/Building_Escape/Binaries/Linux" Command="./Building_Escape-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/george/Game_Development/Engines/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</BuildCommand>
+        <CleanCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -clean
+/home/george/Game_Development/Engines/UnrealEngine/Engine/Build/BatchFiles/Linux/Build.sh Building_Escape Linux Test -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject"</RebuildCommand>
+        <Target Name="Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cook</Target>
+        <Target Name="Cook Game on the fly">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -cookonthefly</Target>
+        <Target Name="Skip Cook Game">mono AutomationTool.exe BuildCookRun -project="/home/george/Game_Development/Unreal_Projects/Building_Escape/Building_Escape.uproject" -noP4 -nokill -clientconfig=Test -serverconfig=Test -platform=Linux -targetplatform=Linux -nocompile -compressed -stage -deploy -skipcook</Target>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape/Building_Escape.Build.cs",
+		"/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_Escape.Target.cs",
+		"/home/george/Game_Development/Unreal_Projects/Building_Escape/Source/Building_EscapeEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.1"
+}
