@@ -30,7 +30,7 @@ int BeginPlay()
 
 
 // Function that displays the current game board
-void DisplayBoard (vector <char> turns)
+void DisplayBoard (const vector <char> turns)
 {
     cout << endl;
     for ( int i {1}; i <= 9; ++i)
